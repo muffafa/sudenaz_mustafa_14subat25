@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bizim Kütüphanemiz 📚💕</title>
+    <link rel="stylesheet" href="css/library.css" />
+  </head>
+  <body>
+
+    <!-- Particles background -->
+    <div class="particles-bg"></div>
+
+    <!-- Header -->
+    <header class="library-header">
+      <h1 class="library-title">Bizim Kütüphanemiz</h1>
+      <p class="library-subtitle">her kitap bir anı, her sayfa bir aşk...</p>
+    </header>
+
+    <!-- Bookshelf -->
+    <main class="bookshelf-container">
+
+      <!-- Shelf 1 -->
+      <section class="shelf">
+        <div class="shelf-books">
+
+          <!-- Book 1 -->
+          <div class="book-card" onclick="openBook('books/book1.html')">
+            <div class="book-spine">
+              <div class="book-face" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url('assets/images/book1/kapak1.jpg'); background-size: cover; background-position: center;">
+                <h2 class="book-cover-title">2025 / 14 Şubat</h2>
+                <span class="book-year">Bizim Hikayemiz - 1</span>
+              </div>
+              <div class="book-spine-edge"></div>
+            </div>
+          </div>
+
+          <!-- Book 2 -->
+          <div class="book-card" onclick="openBook('books/book2.html')">
+            <div class="book-spine">
+              <div class="book-face" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.75), rgba(0,0,0,0.5)), url('assets/images/book2/kapak2.jpg'); background-size: cover; background-position: center;">
+                <h2 class="book-cover-title">2026 / 14 Şubat</h2>
+                <span class="book-year">Bizim Hikayemiz - 2</span>
+              </div>
+              <div class="book-spine-edge"></div>
+            </div>
+          </div>
+
+          <!-- Candle decoration -->
+          <div class="shelf-decor">🕯️</div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="library-footer">
+      <p>Muffafa & Sudiş'in Aşk Kütüphanesi <span class="footer-heart">❤</span></p>
+    </footer>
+
+    <script src="js/library.js"></script>
+  </body>
+</html>
