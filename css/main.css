@@ -293,3 +293,37 @@ body {
   0%, 100% { opacity: 0.2; }
   50% { opacity: 1; }
 }
+
+/* ===== Mobile ===== */
+@media (max-width: 600px) {
+  .main-container {
+    padding: 30px 20px;
+  }
+
+  .heart-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .intro-text {
+    font-size: 1.05em;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+
+  .password-label {
+    font-size: 1.3em;
+  }
+
+  .password-input {
+    max-width: 280px;
+    padding: 12px 20px;
+    font-size: 0.95em;
+  }
+
+  .submit-btn {
+    padding: 12px 36px;
+    font-size: 0.95em;
+  }
+}
